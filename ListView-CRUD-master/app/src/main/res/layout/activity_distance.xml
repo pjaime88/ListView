@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <TextView
+        android:id="@+id/e"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="From:"
+        android:textColor="#000000"
+        android:textSize="20dp"/>
+
+    <Spinner
+        android:id="@+id/spinnerFrom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:layout_marginLeft="100dp"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/txtlat1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:text="Latitude: "/>
+        <TextView
+            android:id="@+id/lat1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@id/txtlat1"
+            android:textSize="15dp"
+            android:text="0.00"/>
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/txtlon1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:text="Longitude: "/>
+        <TextView
+            android:id="@+id/lon1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@id/txtlat1"
+            android:textSize="15dp"
+            android:text="0.00"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/espace1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+
+    <TextView
+        android:id="@+id/en"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="To:"
+        android:textColor="#000000"
+        android:textSize="20dp"/>
+
+    <Spinner
+        android:id="@+id/spinnerTo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:layout_marginLeft="100dp"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/txtlat2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:text="Latitude: "/>
+        <TextView
+            android:id="@+id/lat2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@id/txtlat1"
+            android:textSize="15dp"
+            android:text="0.00"/>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/txtlon2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:text="Latitude: "/>
+        <TextView
+            android:id="@+id/lon2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@id/txtlat1"
+            android:textSize="15dp"
+            android:text="0.00"/>
+
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/espace10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+    <TextView
+        android:id="@+id/enp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Unit:"
+        android:textColor="#000000"
+        android:textSize="20dp"/>
+
+    <Spinner
+        android:id="@+id/spinnerUnit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:layout_marginLeft="100dp"/>
+
+
+    <TextView
+        android:id="@+id/espace4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+
+
+    <Button
+        android:id="@+id/findDistanceBtn"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:background="#FF1493"
+        android:text="Find The Distance"
+        />
+
+    <TextView
+        android:id="@+id/espace6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+
+    <TextView
+        android:id="@+id/espace7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+
+    <TextView
+        android:id="@+id/espace8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+
+    <TextView
+        android:id="@+id/result"
+        android:layout_width="380dp"
+        android:layout_height="wrap_content"
+        android:text="0.00000"
+        android:textSize="25dp"
+        android:textColor="#4B0082"
+        android:textAlignment="center"/>
+
+</LinearLayout>
